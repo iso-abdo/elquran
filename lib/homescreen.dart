@@ -5,6 +5,14 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text('data')));
+    return Stack(
+      children: [
+        Image.asset('assets/images/backgrund.png',
+          width: double.infinity,
+          height: double.infinity,
+          fit: BoxFit.fill,
+        )
+      ],
+    );
   }
 }
