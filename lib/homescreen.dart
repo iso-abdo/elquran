@@ -14,12 +14,9 @@ class HomeScreen extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
-            title: Text('quran', style: Theme
-                .of(context)
-                .textTheme
-                .bodyLarge),
+            title: Text('quran', style: Theme.of(context).textTheme.bodyLarge),
           ),
-        )
+        ))
 
       ],
     );
