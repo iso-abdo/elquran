@@ -12,7 +12,7 @@ class MyThemData {
     textTheme: TextTheme(
       bodyLarge: TextStyle(
         color: AppColors.blackcolor,
-        fontSize: 30,
+        fontSize: 32,
         fontWeight: FontWeight.bold,
       ),
     ),
