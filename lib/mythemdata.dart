@@ -3,12 +3,21 @@ import 'package:quran/appcolors.dart';
 
 class MyThemData {
   static final ThemeData lightmode = ThemeData(
+    primaryColor: AppColors.prymarylightmod,
+    canvasColor: AppColors.prymarylightmod,
+
     scaffoldBackgroundColor: Colors.transparent,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.transparent,
       elevation: 0,
       centerTitle: true,
     ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      backgroundColor: AppColors.prymarylightmod,
+      selectedItemColor: AppColors.blackcolor,
+      unselectedItemColor: AppColors.whitecolor,
+    ),
+
     textTheme: TextTheme(
       bodyLarge: TextStyle(
         color: AppColors.blackcolor,
