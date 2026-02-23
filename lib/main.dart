@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: HomeScreen.routName,
-      routes: {HomeScreen.routName: (context) => HomeScreen()},
+        initialRoute: HomeScreen.routName,
+        routes: {HomeScreen.routName: (context) => HomeScreen()},
         theme: MyThemData.lightmode
     );
   }
