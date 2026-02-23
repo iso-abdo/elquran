@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:quran/hadethtap.dart';
+import 'package:quran/qurantap.dart';
+import 'package:quran/sephatap.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -53,8 +56,11 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
+          body: tabs[selectedIndx],
         ),
       ],
     );
   }
+
+  List<Widget> tabs = [QuranTap(), HadethTap(), SabhaTap()];
 }
