@@ -24,6 +24,16 @@ class MyThemData {
         fontSize: 30,
         fontWeight: FontWeight.bold,
       ),
+      bodyMedium: TextStyle(
+        color: AppColors.blackcolor,
+        fontSize: 25,
+        fontWeight: FontWeight.bold,
+      ),
+      bodySmall: TextStyle(
+        color: AppColors.blackcolor,
+        fontSize: 30,
+        fontWeight: FontWeight.bold,
+      ),
     ),
   );
 }
