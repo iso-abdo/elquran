@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         Scaffold(
           appBar: AppBar(
-            title: Text('quran', style: Theme.of(context).textTheme.bodyLarge),
+            title: Text('المسلم', style: Theme.of(context).textTheme.bodyLarge),
           ),
           bottomNavigationBar: Theme(
             data: Theme.of(
@@ -43,15 +43,15 @@ class _HomeScreenState extends State<HomeScreen> {
               items: [
                 BottomNavigationBarItem(
                   icon: ImageIcon(AssetImage('assets/images/quranicon.png')),
-                  label: 'Quran',
+                  label: 'القران',
                 ),
                 BottomNavigationBarItem(
                   icon: ImageIcon(AssetImage('assets/images/hadeth.png')),
-                  label: 'Hadeth',
+                  label: 'الحديث',
                 ),
                 BottomNavigationBarItem(
                   icon: ImageIcon(AssetImage('assets/images/sebha.png')),
-                  label: 'Sabha',
+                  label: 'السبحه',
                 ),
               ],
             ),
