@@ -142,7 +142,7 @@ class QuranTap extends StatelessWidget {
           color: AppColors.prymarylightmod,
           thickness: 3,
         ),
-        Text('name of sura',
+        Text('القران الكريم',
           style: Theme
               .of(context)
               .textTheme
@@ -157,7 +157,7 @@ class QuranTap extends StatelessWidget {
           flex: 2,
           child: ListView.builder(
             itemBuilder: (context, index) {
-              return ItmeSoraName(name: names[index]);
+              return ItmeSoraName(name: names[index], index: index,);
             },
             itemCount: names.length,
           ),

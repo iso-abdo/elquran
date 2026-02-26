@@ -9,7 +9,8 @@ class MyThemData {
     scaffoldBackgroundColor: Colors.transparent,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.transparent,
-      elevation: 0,
+      iconTheme: IconThemeData(color: AppColors.blackcolor),
+      eelevation: 0,
       centerTitle: true,
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
@@ -34,6 +35,11 @@ class MyThemData {
         fontSize: 30,
         fontWeight: FontWeight.bold,
       ),
+        titleLarge: TextStyle(
+          color: AppColors.blackcolor,
+          fontSize: 30,
+          fontWeight: FontWeight.w800,
+        )
     ),
   );
 }
